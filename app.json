@@ -59,17 +59,17 @@
     },
     "BG_LOW": {
       "description": "Urgent Low BG threshold, triggers the ALARM_URGENT_LOW alarm. Set in mg/dL or mmol/L, as set in DISPLAY_UNITS variable.",
-      "value": "55",
+      "value": "3.9",
       "required": false
     },
     "BG_TARGET_BOTTOM": {
       "description": "Low BG threshold, triggers the ALARM_LOW alarm. Set in mg/dL or mmol/L, as set in DISPLAY_UNITS variable.",
-      "value": "80",
+      "value": "4.5",
       "required": false
     },
     "BG_TARGET_TOP": {
       "description": "High BG threshold, triggers the ALARM_HIGH alarm. Set in mg/dL or mmol/L, as set in DISPLAY_UNITS variable.",
-      "value": "180",
+      "value": "8",
       "required": false
     },
     "BOLUS_RENDER_OVER": {
@@ -79,7 +79,7 @@
     },
     "BRIDGE_PASSWORD": {
       "description": "Your Dexcom account password, to receive CGM data from the Dexcom Share service. Also make sure to include 'bridge' in your ENABLE line.",
-      "value": "",
+      "value": "Scilly01",
       "required": false
     },
     "BRIDGE_SERVER": {
@@ -94,7 +94,7 @@
     },
     "CUSTOM_TITLE": {
       "description": "The display name for the Nightscout site. Appears in the upper left of the main view. Often set to the name of the CGM wearer.",
-      "value": "",
+      "value": "MSPEAKE",
       "required": false
     },
     "DISPLAY_UNITS": {
@@ -104,7 +104,7 @@
     },
     "ENABLE": {
       "description": "Plugins to enable for your site. Must be a space-delimited, lower-case list. Include the word 'bridge' here if you are receiving data from the Dexcom Share service. Include 'mmconnect' if you are bridging from the MiniMed CareLink service.",
-      "value": "careportal basal dbsize",
+      "value": "careportal basal bridge",
       "required": false
     },
     "MMCONNECT_USER_NAME": {
@@ -154,7 +154,7 @@
     },
     "TIME_FORMAT": {
       "description": "Default setting for new browser views, for the time mode. ('12' or '24')",
-      "value": "12",
+      "value": "24",
       "required": false 
     }
   },
