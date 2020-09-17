@@ -49,7 +49,7 @@
     },
     "API_SECRET": {
       "description": "A passphrase that must be at least 12 characters long. Avoid 'special' characters, which can cause problems in some cases.",
-      "value": "",
+      "value": "Caramelisedonion5903",
       "required": true
     },
     "BG_HIGH": {
@@ -84,12 +84,12 @@
     },
     "BRIDGE_SERVER": {
       "description": "If you are bridging from the Dexcom Share service, and are anywhere *outside* the US, change this to EU. ('US' or 'EU')",
-      "value": "US",
+      "value": "EU",
       "required": false
     },
     "BRIDGE_USER_NAME": {
       "description": "Your Dexcom account username, to receive CGM data from the Dexcom Share service. Also make sure to include 'bridge' in your ENABLE line.",
-      "value": "",
+      "value": "mspeake",
       "required": false
     },
     "CUSTOM_TITLE": {
@@ -99,7 +99,7 @@
     },
     "DISPLAY_UNITS": {
       "description": "Preferred BG units for the site: 'mg/dl' or 'mmol/L' (or just 'mmol').",
-      "value": "mg/dl",
+      "value": "mmol",
       "required": true
     },
     "ENABLE": {
@@ -119,7 +119,7 @@
     },
     "MMCONNECT_SERVER": {
       "description": "If you are bridging from the CareLink service, and are anywhere *outside* the US, change this to EU. ('US' or 'EU')",
-      "value": "US",
+      "value": "EU",
       "required": false
     },
     "MONGODB_URI": {
